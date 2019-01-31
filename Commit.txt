@@ -126,6 +126,8 @@ Keine Ahnung wo da ein Fehler war, aber jetz müsste es funktionieren ;)
 							</div>
 						</div>
 					</li>
+
+
    <body> <strong><h1>Konzept: Tesla Wetter App</h1></strong> 
 
 <p = align ="center">Unser Konzept besteht aus einer Wetter App f&uuml;r Tesla Autos. 
@@ -134,3 +136,6 @@ Au&szlig;erdem soll die M&oumlglichkeit bestehen bei einer Navigationsanwendung 
 Unser Prototyp zeigt uns die aktuelle Wetterlage , Datum und Uhrzeit an.
 Die Implementierung mit dem Navigationssystem wurde nicht gemacht.</p>
 </body>
+
+
+Font Css wurde von Nicolas Gallagher verwendet wichtig für die Dokumentation
