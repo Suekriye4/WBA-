@@ -91,6 +91,21 @@ Ergänzung zu Wetter HTML
 									<div><span>Mi</span><span class="icon-clima-1"></span><span>-1°C</span></div>
 									<div><span>Do</span><span class="icon-clima-3"></span><span>-2°C</span></div>
 							</div>
+
+
+Tippfehler verbessert füg das einfach so hinzu
+
+   <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear">
+    <!-- ################################################################################################ -->
+
+</div>
    <body> <strong><h1>Konzept: Tesla Wetter App</h1></strong> 
 
 <p = align ="center">Unser Konzept besteht aus einer Wetter App f&uuml;r Tesla Autos. 
