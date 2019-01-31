@@ -27,6 +27,70 @@ Unser Prototyp zeigt uns die aktuelle Wetterlage , Datum und Uhrzeit an.
 
 Konzeptseite body
 
+
+Ergänzung zu Wetter HTML
+
+<div class="container">
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+
+
+			</div><!--/ Codrops top bar -->
+			<header class="clearfix">
+
+				<nav class="codrops-demos">
+
+				</nav>
+			</header>
+			<div class="main">
+
+				<ul id="rb-grid" class="rb-grid clearfix">
+					<li class="icon-clima-3 rb-span-2">
+						<h3>Gummersbach</h3><span class="rb-temp">-2°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Gummersbach</span><span class="icon-clima-3"></span><span>-2°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-3"></span><span>-3°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-3"></span><span>-°C</span></div>
+								<div><span>So</span><span class="icon-clima-3"></span><span>-1°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>-3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-3"></span><span>-2°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-3"></span><span>-3°C</span></div>
+								<div><span>Do</span><span class="icon-clima-3"></span><span>-3°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-3">
+						<h3>Köln</h3><span class="rb-temp">-1°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Köln</span><span class="icon-clima-3"></span><span>0°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-8"></span><span>-1°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-1"></span><span>0°C</span></div>
+								<div><span>So</span><span class="icon-clima-11"></span><span>-2°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>-1°C</span></div>
+								<div><span>Di</span><span class="icon-clima-3"></span><span>0°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-1"></span><span>-2°C</span></div>
+								<div><span>Do</span><span class="icon-clima-3"></span><span>1°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-1">
+						<h3>Berlin</h3><span class="rb-temp">-1°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Berlin</span><span class="icon-clima-1"></span><span>0°C</span></div>
+									<div><span>Fr</span><span class="icon-clima-1"></span><span>-1°C</span></div>
+									<div><span>Sa</span><span class="icon-clima-1"></span><span>0°C</span></div>
+									<div><span>So</span><span class="icon-clima-1"></span><span>0°C</span></div>
+									<div><span>Mo</span><span class="icon-clima-3"></span><span>-1°C</span></div>
+									<div><span>Di</span><span class="icon-clima-11"></span><span>-1°C</span></div>
+									<div><span>Mi</span><span class="icon-clima-1"></span><span>-1°C</span></div>
+									<div><span>Do</span><span class="icon-clima-3"></span><span>-2°C</span></div>
+							</div>
    <body> <strong><h1>Konzept: Tesla Wetter App</h1></strong> 
 
 <p = align ="center">Unser Konzept besteht aus einer Wetter App f&uuml;r Tesla Autos. 
