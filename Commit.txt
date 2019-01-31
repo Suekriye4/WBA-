@@ -23,3 +23,15 @@ konzept
 Unser Konzept besteht aus einer Wetter App für Tesla Autos. Der User soll die Möglichkeit haben per aktuellem Standort die aktuelle Wetterlage zu erfahren. Außerdem soll die Möglichkeit bestehen bei einer Navigationsanwendung die aktuelle Wetterlage der Route zu erfahren.
 Unser Prototyp zeigt uns die aktuelle Wetterlage , Datum und Uhrzeit an.
  Die Implementierung mit dem Navigationssystem wurde nicht gemacht.
+
+
+Konzeptseite body
+
+   <body> <strong><h1>Konzept: Tesla Wetter App</h1></strong> 
+
+<p = align ="center">Unser Konzept besteht aus einer Wetter App f&uuml;r Tesla Autos. 
+Der User soll die M&oumlglichkeit haben per aktuellem Standort die aktuelle Wetterlage zu erfahren.
+Au&szlig;erdem soll die M&oumlglichkeit bestehen bei einer Navigationsanwendung die aktuelle Wetterlage der Route zu erfahren.
+Unser Prototyp zeigt uns die aktuelle Wetterlage , Datum und Uhrzeit an.
+Die Implementierung mit dem Navigationssystem wurde nicht gemacht.</p>
+</body>
