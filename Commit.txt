@@ -19,5 +19,7 @@ Tesla Logo neu
 https://www.google.com/search?q=tesla+icon&tbm=isch&source=iu&ictx=1&fir=psv6Y77UKd3KoM%253A%252Cbl7Ff2H9pxZsyM%252C_&usg=AI4_-kTh8FlQgpIVliWswIUPsX5viBgSvQ&sa=X&ved=2ahUKEwjPuZSBhJjgAhWiM-wKHd_2AkoQ9QEwCXoECAcQFg#imgrc=QykrnT5FB_tQCM:
 
 
-
-Test derya
+konzept
+Unser Konzept besteht aus einer Wetter App für Tesla Autos. Der User soll die Möglichkeit haben per aktuellem Standort die aktuelle Wetterlage zu erfahren. Außerdem soll die Möglichkeit bestehen bei einer Navigationsanwendung die aktuelle Wetterlage der Route zu erfahren.
+Unser Prototyp zeigt uns die aktuelle Wetterlage , Datum und Uhrzeit an.
+ Die Implementierung mit dem Navigationssystem wurde nicht gemacht.
