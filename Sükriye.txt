@@ -3,3 +3,423 @@ avatar eingefügt
 Logo eingefügt aber muss nochmal bearbeitet werden
 
 habe deine Änderung auf der Siete übernommen und angepasst
+
+<!DOCTYPE html>
+<!--
+Template Name: Expression
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Wetter</title>
+<meta charset="utf-8">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="../Wetter/css/default.css" />
+<link rel="stylesheet" type="text/css" href="../Wetter/css/climacons.css" />
+<link rel="stylesheet" type="text/css" href="../Wetter/css/component.css" />
+<script src="../Wetter/js/modernizr.custom.js"></script>
+</head>
+<body id="top">
+  <div class="wrapper navtop">
+    <header id="header" class="clear">
+      <nav id="mainav">
+        <ul class="clear">
+          <li><img class="ictop" src="../images/navtop/bluetooth.png" alt=""></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li><li><iframe src="http://www.ixq.de/uhrzeit/schwarz.php" width="160" height="20" frameborder="0" border="0"></iframe> </li></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <!-- ################################################################################################ -->
+    <div id="logo">
+      <a href="../index.html"><img class="logo" src="../images/logo.png" alt=""></a>
+    </div>
+
+    <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+    <nav id="mainav">
+
+      <ul class="clear">
+        <li><a href="kontakte.html"><img class="icon" src="../images/kontakte.png" alt=""></a></li>
+        <li class="active"><a href="wetter.html"><img class="icon" src="../images/wetter.png" alt=""></a></li>
+        <li><a class="drop" href="#"><img class="icon" src="../images/pfeil.png" alt=""></a>
+          <ul>
+            <li><a href="pages/index.html">Service</a></li>
+            <li><a href="pages/full-width.html">Helligkeit</a></li>
+            <li><a href="pages/sidebar-left.html">Sicherheit</a></li>
+            <li><a href="pages/sidebar-right.html">Scheibenwischer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" style="background-image:url(../images/demo/slides/2.png)">
+  <div class="overlay">
+    <!-- ############################################################################################################# -->
+    <div class="container">
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+
+
+			</div><!--/ Codrops top bar -->
+			<header class="clearfix">
+
+				<nav class="codrops-demos">
+
+				</nav>
+			</header>
+      <div class="main">
+
+				<ul id="rb-grid" class="rb-grid clearfix">
+					<li class="icon-clima-6 rb-span-2">
+						<h3>Gummersbach</h3><span class="rb-temp">-2°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Gummersbach</span><span class="icon-clima-3"></span><span>-2°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-6"></span><span>-1°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>So</span><span class="icon-clima-4"></span><span>1°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>2°C</span></div>
+								<div><span>Di</span><span class="icon-clima-4"></span><span>2°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-5"></span><span>2°C</span></div>
+								<div><span>Do</span><span class="icon-clima-4"></span><span>2°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-4">
+						<h3>Köln</h3><span class="rb-temp">0°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Köln</span><span class="icon-clima-4"></span><span>0°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-3"></span><span>1°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-4"></span><span>4°C</span></div>
+								<div><span>So</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-4"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-5"></span><span>3°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-4"></span><span>4°C</span></div>
+								<div><span>Do</span><span class="icon-clima-2"></span><span>5°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2">
+						<h3>Leverkusen</h3><span class="rb-temp">3°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Leverkusen</span><span class="icon-clima-6"></span><span>3°C</span></div>
+									<div><span>Fr</span><span class="icon-clima-2"></span><span>1°C</span></div>
+									<div><span>Sa</span><span class="icon-clima-4"></span><span>4°C</span></div>
+									<div><span>So</span><span class="icon-clima-6"></span><span>4°C</span></div>
+									<div><span>Mo</span><span class="icon-clima-6"></span><span>3°C</span></div>
+									<div><span>Di</span><span class="icon-clima-5"></span><span>3°C</span></div>
+									<div><span>Mi</span><span class="icon-clima-4"></span><span>4°C</span></div>
+									<div><span>Do</span><span class="icon-clima-4"></span><span>4°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-4">
+						<h3>Berlin</h3><span class="rb-temp">5°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Berlin</span><span class="icon-clima-2"></span><span>5°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-4"></span><span>4°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>So</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-4"></span><span>4°C</span></div>
+								<div><span>Do</span><span class="icon-clima-3"></span><span>3°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-3">
+						<h3>Frankfurt</h3><span class="rb-temp">4°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Frankfurt</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-4"></span><span>1°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-6"></span><span>5°C</span></div>
+								<div><span>So</span><span class="icon-clima-5"></span><span>4°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-2"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-2"></span><span>3°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-2"></span><span>4°C</span></div>
+								<div><span>Do</span><span class="icon-clima-3"></span><span>4°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-3">
+						<h3>Amsterdam</h3><span class="rb-temp">0°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Amsterdam</span><span class="icon-clima-5"></span><span>0°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-3"></span><span>5°C</span></div>
+								<div><span>So</span><span class="icon-clima-2"></span><span>6°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Di</span><span class="icon-clima-2"></span><span>5°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-4"></span><span>5°C</span></div>
+								<div><span>Do</span><span class="icon-clima-3"></span><span>4°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-3">
+						<h3>Dortmund</h3><span class="rb-temp">1°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Dortmund</span><span class="icon-clima-4"></span><span>1°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-6"></span><span>2°C</span></div>
+								<div><span>So</span><span class="icon-clima-4"></span><span>3°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-4"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Do</span><span class="icon-clima-4"></span><span>3°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-4">
+						<h3>Essen</h3><span class="rb-temp">1°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Essen</span><span class="icon-clima-4"></span><span>1°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-6"></span><span>2°C</span></div>
+								<div><span>So</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-4"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-4"></span><span>3°C</span></div>
+								<div><span>Do</span><span class="icon-clima-4"></span><span>3°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2 rb-span-2">
+						<h3>Düsseldorf</h3><span class="rb-temp">4°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Düsseldorf</span><span class="icon-clima-4"></span><span>4°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-2"></span><span>4°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-6"></span><span>3°C</span></div>
+								<div><span>So</span><span class="icon-clima-6"></span><span>3°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-3"></span><span>4°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-4"></span><span>4°C</span></div>
+								<div><span>Do</span><span class="icon-clima-4"></span><span>4°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2">
+						<h3>Hamburg</h3><span class="rb-temp">3°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Hamburg</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-6"></span><span>2°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-6"></span><span>2°C</span></div>
+								<div><span>So</span><span class="icon-clima-2"></span><span>3°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Di</span><span class="icon-clima-6"></span><span>3°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Do</span><span class="icon-clima-4"></span><span>3°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-4 rb-span-3">
+						<h3>München</h3><span class="rb-temp">3°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Sydney</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-3"></span><span>3°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-5"></span><span>4°C</span></div>
+								<div><span>So</span><span class="icon-clima-6"></span><span>2°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-2"></span><span>1°C</span></div>
+								<div><span>Di</span><span class="icon-clima-1"></span><span>3°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-6"></span><span>2°C</span></div>
+								<div><span>Do</span><span class="icon-clima-4"></span><span>2°C</span></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+    <!-- ############################################################################################################# -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main id="container" class="clear">
+    <!--Add buttons to initiate auth sequence and sign out-->
+     <button id="authorize-button" style="display: none;">Authorize</button>
+     <button id="signout-button" style="display: none;">Sign Out</button>
+
+     <pre id="content"></pre>
+
+     <script type="text/javascript">
+       // Client ID and API key from the Developer Console
+       var CLIENT_ID = '815196299439-28c0j8fda1c63j647gt68ofku5bg50if.apps.googleusercontent.com';
+       var API_KEY = 'AIzaSyCk2ARHG_VHwQW2Jh5uGM1MJmSVJfp-_Z0';
+
+       // Array of API discovery doc URLs for APIs used by the quickstart
+       var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/people/v1/rest"];
+
+       // Authorization scopes required by the API; multiple scopes can be
+       // included, separated by spaces.
+       var SCOPES = "https://www.googleapis.com/auth/contacts.readonly";
+
+       var authorizeButton = document.getElementById('authorize-button');
+       var signoutButton = document.getElementById('signout-button');
+
+       /**
+        *  On load, called to load the auth2 library and API client library.
+        */
+       function handleClientLoad() {
+         gapi.load('client:auth2', initClient);
+       }
+
+       /**
+        *  Initializes the API client library and sets up sign-in state
+        *  listeners.
+        */
+       function initClient() {
+         gapi.client.init({
+           apiKey: API_KEY,
+           clientId: CLIENT_ID,
+           discoveryDocs: DISCOVERY_DOCS,
+           scope: SCOPES
+         }).then(function () {
+           // Listen for sign-in state changes.
+           gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+
+           // Handle the initial sign-in state.
+           updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+           authorizeButton.onclick = handleAuthClick;
+           signoutButton.onclick = handleSignoutClick;
+         });
+       }
+
+       /**
+        *  Called when the signed in status changes, to update the UI
+        *  appropriately. After a sign-in, the API is called.
+        */
+       function updateSigninStatus(isSignedIn) {
+         if (isSignedIn) {
+           authorizeButton.style.display = 'none';
+           signoutButton.style.display = 'block';
+           listConnectionNames();
+         } else {
+           authorizeButton.style.display = 'block';
+           signoutButton.style.display = 'none';
+         }
+       }
+
+       /**
+        *  Sign in the user upon button click.
+        */
+       function handleAuthClick(event) {
+         gapi.auth2.getAuthInstance().signIn();
+       }
+
+       /**
+        *  Sign out the user upon button click.
+        */
+       function handleSignoutClick(event) {
+         gapi.auth2.getAuthInstance().signOut();
+       }
+
+       /**
+        * Append a pre element to the body containing the given message
+        * as its text node. Used to display the results of the API call.
+        *
+        * @param {string} message Text to be placed in pre element.
+        */
+       function appendPre(message) {
+         var pre = document.getElementById('content');
+         var textContent = document.createTextNode(message + '\n');
+         pre.appendChild(textContent);
+       }
+
+       /**
+        * Print the display name if available for 10 connections.
+        */
+       function listConnectionNames() {
+         gapi.client.people.people.connections.list({
+            'resourceName': 'people/me',
+            'pageSize': 10,
+            'personFields': 'names,emailAddresses',
+          }).then(function(response) {
+            var connections = response.result.connections;
+            appendPre('Connections:');
+
+            if (connections.length > 0) {
+              for (i = 0; i < connections.length; i++) {
+                var person = connections[i];
+                if (person.names && person.names.length > 0) {
+                  appendPre(person.names[0].displayName)
+                } else {
+                  appendPre("No display name found for connection.");
+                }
+              }
+            } else {
+              appendPre('No upcoming events found.');
+            }
+          });
+       }
+
+     </script>
+
+     <script async defer src="https://apis.google.com/js/api.js"
+       onload="this.onload=function(){};handleClientLoad()"
+       onreadystatechange="if (this.readyState === 'complete') this.onload()">
+     </script>
+
+
+  </div><!-- /container -->
+
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear">
+    <!-- ################################################################################################ -->
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="clear">
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+</body>
+</html>
