@@ -1,0 +1,3 @@
+[0131/125854.649:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Zugriff verweigert (0x5)
+[0131/125854.651:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0131/125854.652:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Zugriff verweigert (0x5)
