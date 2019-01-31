@@ -1,0 +1,298 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @Suekriye4 Sign out
+0
+0 0 Suekriye4/WBA-
+ Code  Issues 5  Pull requests 0  Projects 0  Wiki  Insights  Settings
+WBA-/component.css
+833b419  31 minutes ago
+@deryaguer deryaguer Add files via upload
+
+282 lines (247 sloc)  9.68 KB
+.rb-grid {
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.rb-grid li {
+	width: 25%;
+	height: 15em;
+	margin: 0.5%;
+	background: #8CC7DF;
+	color: #fff;
+	display: block;
+	float: left;
+	padding: 1.6em;
+	cursor: pointer;
+	position: relative;
+}
+
+.rb-grid li.rb-span-2 {
+	width: 49%;
+}
+
+.rb-grid li.rb-span-4 {
+	width: 100%;
+}
+
+.rb-grid li h3 {
+	font-size: 1em;
+	font-weight: 50;
+}
+
+.rb-grid li[class^="icon-"]:before,
+.rb-grid li[class*=" icon-"]:before {
+	font-size: 5em;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	line-height: 3;
+	opacity: 0.4;
+	text-align: right;
+	pointer-events: none;
+}
+
+.rb-temp {
+	display: block;
+	font-size: 2em;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.rb-grid li:hover .rb-temp {
+	opacity: 1;
+}
+
+.rb-overlay {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	z-index: -1;
+	pointer-events: none;
+	cursor: default;
+}
+
+.rb-close {
+	position: absolute;
+	top: 0.4em;
+	right: 0.4em;
+	width: 2em;
+	height: 2em;
+	text-indent: -9000px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.rb-close::before {
+	content: 'x';
+	font-weight: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 3em;
+	line-height: 0.6;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.rb-week {
+	width: 100%;
+	height: 100%;
+}
+
+.rb-week > div {
+	width: 10%;
+	height: 100%;
+	float: left;
+	position: relative;
+	padding: 3% 0;
+}
+
+.rb-week > div:first-child {
+	width: 30%;
+}
+
+.rb-week span {
+	padding: 5% 0;
+	font-size: 2em;
+	font-weight: 100;
+	display: block;
+	margin: auto 0;
+	height: 30%;
+	width: 100%;
+	line-height: 0.8;
+}
+
+.rb-week span.rb-city {
+	font-weight: 700;
+	padding: 1% 10%;
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+.rb-week [class^="icon-"]:before {
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+.rb-week > div:first-child [class^="icon-"] {
+	opacity: 0.1;
+}
+
+/* Colors */
+
+/* Grid */
+.rb-grid li:nth-child(1) { background: #d4e6e6; }
+.rb-grid li:nth-child(2) { background: #ffffb9; }
+.rb-grid li:nth-child(3) { background: #ffff70; }
+.rb-grid li:nth-child(4) { background: #ffffb9; }
+.rb-grid li:nth-child(5) { background: #7fb5b5; }
+.rb-grid li:nth-child(6) { background: #d4e6e6; }
+.rb-grid li:nth-child(7) { background: #7fb5b5; }
+.rb-grid li:nth-child(8) { background: #ffffb9; }
+.rb-grid li:nth-child(9) { background: #ffff70; }
+.rb-grid li:nth-child(10) { background: #ffff70; }
+.rb-grid li:nth-child(11) { background: #ffffb9; }
+
+/* Overlay Columns */
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(1) { background: #d4e6e6; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(2) { background: #eaf2f8; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(3) { background: #eaf2f1; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(4) { background: #eaf2f8; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(5) { background: #eaf2f5; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(6) { background: #eaf2f5; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(7) { background: #eaf2f6; }
+.rb-grid li:nth-child(1) .rb-week > div:nth-child(8) { background: #eaf2f6; }
+
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(1) { background: #ffffb9; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(2) { background: #d4e6e2; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(3) { background: #d4e6e2; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(4) { background: #d4e6e4; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(5) { background: #d4e6e1; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(6) { background: #d4e6e4; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(7) { background: #d4e6e4; }
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(8) { background: #d4e6e3; }
+
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(1) { background: #ffff70; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(2) { background: #fffbc1; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(3) { background: #fffbc1; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(4) { background: #d4e6e3; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(5) { background: #d4e6e5; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(6) { background: #fffbc1; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(7) { background: #fffbc1; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(8) { background: #fffbc1; }
+
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(1) { background: #ffffb9; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(2) { background: #e0e0e0; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(3) { background: #e0e0f7; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(4) { background: #e0e0f4; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(5) { background: #e0e0e0; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(6) { background: #e0e0f3; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(7) { background: #e0e0e0; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(8) { background: #e0e0f9; }
+
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(1) { background: #7fb5b5; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(2) { background: #d4e6e6; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(3) { background: #d4e6e6; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(4) { background: #ffffb9; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(5) { background: #ffffb9; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(6) { background: #ffffb9; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(7) { background: #ffffb9; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(8) { background: #d4e6e6; }
+
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(1) { background: #d4e6e6; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(2) { background: #d4e6e6; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(3) { background: #d4e6e6; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(4) { background: #ffed4d; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(5) { background: #d4e6e6; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(6) { background: #ffed4d; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(7) { background: #d4e6e6; }
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(8) { background: #d4e6e6; }
+
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(1) { background: #7fb5b5; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(2) { background: #d4e6e1; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(3) { background: #d4e6e2; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(4) { background: #fffacd; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(5) { background: #fffacd; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(6) { background: #d4e6e6; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(7) { background: #d4e6e2; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(8) { background: #fffacd; }
+
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(1) { background: #ffffb9; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(2) { background: #eaf2f8; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(3) { background: #eaf2f8; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(4) { background: #eaf2f8; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(5) { background: #fffacd; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(6) { background: #eaf2f8; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(7) { background: #fffacd; }
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(8) { background: #fffacd; }
+
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(1) { background: #ffff70; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(2) { background: #fffacd; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(3) { background: #eaf2f8; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(4) { background: #eaf2f8; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(5) { background: #eaf2f8; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(6) { background: #eaf2f8; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(7) { background: #fffacd; }
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(8) { background: #fffacd; }
+
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(1) { background: #ffff70; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(2) { background: #eaf2f8; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(3) { background: #eaf2f8; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(4) { background: #ffff70; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(5) { background: #eaf2f8; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(6) { background: #eaf2f8; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(7) { background: #eaf2f8; }
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(8) { background: #ffff90; }
+
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(1) { background: #ffffb9; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(2) { background: #eaf2f8; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(3) { background: #fffacd; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(4) { background: #eaf2f8; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(5) { background: #ffff90; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(6) { background: #fffacd; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(7) { background: #eaf2f8; }
+.rb-grid li:nth-child(11) .rb-week > div:nth-child(8) { background: #fffacd; }
+
+@media screen and (max-width: 63.125em) {
+
+	.rb-grid li,
+	.rb-grid li.rb-span-2,
+	.rb-grid li.rb-span-4 {
+		width: 100%;
+		height: 10em;
+		text-align: left;
+	}
+
+	.rb-grid li[class^="icon-"]:before,
+	.rb-grid li[class*=" icon-"]:before {
+		font-size: 6em;
+		left: auto;
+		right: 0;
+		line-height: 2.5;
+	}
+
+	.rb-grid li > div {
+		text-align: center;
+	}
+}
