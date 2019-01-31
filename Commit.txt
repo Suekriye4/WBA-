@@ -106,6 +106,26 @@ Tippfehler verbessert füg das einfach so hinzu
     <!-- ################################################################################################ -->
 
 </div>
+
+
+Keine Ahnung wo da ein Fehler war, aber jetz müsste es funktionieren ;)
+
+<li class="icon-clima-1">
+						<h3>Istanbul</h3><span class="rb-temp">11°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Istanbul</span><span class="icon-clima-1"></span><span>11°C</span></div>
+								<div><span>Fr</span><span class="icon-clima-2"></span><span>13°C</span></div>
+								<div><span>Sa</span><span class="icon-clima-1"></span><span>16°C</span></div>
+								<div><span>So</span><span class="icon-clima-3"></span><span>14°C</span></div>
+								<div><span>Mo</span><span class="icon-clima-2"></span><span>14°C</span></div>
+								<div><span>Di</span><span class="icon-clima-2"></span><span>17°C</span></div>
+								<div><span>Mi</span><span class="icon-clima-2"></span><span>17°C</span></div>
+								<div><span>Do</span><span class="icon-clima-1"></span><span>16°C</span></div>
+							</div>
+						</div>
+					</li>
    <body> <strong><h1>Konzept: Tesla Wetter App</h1></strong> 
 
 <p = align ="center">Unser Konzept besteht aus einer Wetter App f&uuml;r Tesla Autos. 
