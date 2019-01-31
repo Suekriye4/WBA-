@@ -1,2 +1,1 @@
-123
-fgfj
+Wetter HTML Seite angelegt mit 11 Städten und auch dazu jeweils für 8 Tagen die aktuellen Wetterdaten angegeben. Je nach Wetter sollten die Farben dazu auch diesbezüglich bearbeitet werden.
